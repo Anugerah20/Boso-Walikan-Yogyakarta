@@ -1,0 +1,48 @@
+/* My Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+
+/* Reset css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* My style css */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1.center{
+    text-align: center;
+    font-weight: 700;
+    word-wrap: 2px;
+    color: rgb(32, 51, 160);
+}
+
+.container div{
+    margin-bottom: 2rem;
+}
+
+.container div label{
+    display: block;
+    padding-bottom: 1.2rem;
+}
+
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Mengatur lebar Mobile */
+@media only screen and(min-width: 600px) {
+    .container{
+        width: 600px;
+        margin: auto;
+    }
+}
+
